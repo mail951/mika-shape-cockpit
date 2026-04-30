@@ -55,13 +55,16 @@
     {
       "date": "2026-04-30",
       "label": "Do",
-      "score": 9,
+      "score": 7.5,
       "status": "current",
-      "summary": "Stabiler Start. Saubere Proteinbasis am Morgen. Jetzt entscheidet der Vormittag, ob du im Flow bleibst oder wieder snackst.",
+      "summary": "Guter Start, starke Aktivität, aber am Abend durch Zuckergetränke und Snack-Fleisch klar vom Kurs abgekommen. Wichtig: erkannt, nicht dramatisieren, morgen Abend sauber schließen.",
       "entries": [
-        { "time": "Morgen", "title": "Skyr/Joghurt Bowl", "text": "Skyr/Joghurt mit Banane und Erdbeeren. Solide Proteinbasis, etwas fruchtlastig.", "rating": "8.5/10", "type": "good" }
+        { "time": "Morgen", "title": "Skyr/Joghurt Bowl", "text": "Skyr/Joghurt mit Banane und Erdbeeren. Solide Proteinbasis, etwas fruchtlastig.", "rating": "8.5/10", "type": "good" },
+        { "time": "Mittag", "title": "Brötchen + Kornspitz", "text": "Hühnerfleisch und Avocado solide. Zusätzliche Kornspitze mit Käse und Gurken war unnötig und hat den Mittag schwerer gemacht.", "rating": "7.5/10", "type": "ok" },
+        { "time": "Nachmittag", "title": "Bewegung & Padel", "text": "Wasser, Powerade und ca. 1 Stunde Padel-Tennis. Aktivität stark, Powerade unnötig.", "rating": "stark", "type": "good" },
+        { "time": "Abend", "title": "Getränke + Fleisch", "text": "2x Vitamin Well, 1x Holundersirup mit Mineral, Hamburger Fleisch und Leberkäse ohne Brot. Kein Brot war gut, aber Getränke und verarbeitetes Fleisch waren klarer Abend-Drop.", "rating": "kritisch", "type": "bad" }
       ],
-      "checks": { "wasser": false, "protein": true, "bewegung": false, "kraftreiz": false, "keinZuckerkaffee": true, "keinSnackMuell": true, "abendKontrolliert": false, "schlafVorbereiten": false }
+      "checks": { "wasser": true, "protein": true, "bewegung": true, "kraftreiz": false, "keinZuckerkaffee": true, "keinSnackMuell": false, "abendKontrolliert": false, "schlafVorbereiten": false }
     },
     { "date": "2026-05-01", "label": "Fr", "score": null, "status": "open", "summary": "Offen.", "entries": [], "checks": {} },
     { "date": "2026-05-02", "label": "Sa", "score": null, "status": "open", "summary": "Offen.", "entries": [], "checks": {} },
