@@ -5,7 +5,7 @@
     "goal": "Rekomposition",
     "principles": ["Protein", "Kraftreiz", "Konstanz", "Keine Kalorienzählerei"]
   },
-  "currentDay": "2026-05-01",
+  "currentDay": "2026-05-02",
   "rules": [
     { "title": "Wenn Hunger kommt", "text": "Skyr + Beeren oder Shake. Kein Süßes." },
     { "title": "Abendessen", "text": "Leicht + Protein. Kein Belohnungs-Essen." },
@@ -18,44 +18,70 @@
       "score": 9,
       "status": "closed",
       "summary": "Sehr sauberer Einstiegstag.",
-      "entries": [
-        { "time": "Morgen", "title": "Routine", "text": "Wasser mit Prise Salz, 20 Kniebeugen, 15 Liegestütze. Kaffee ohne Zucker getestet.", "rating": "stark", "type": "good" }
-      ],
-      "checks": { "wasser": true, "protein": true, "bewegung": true, "kraftreiz": true, "keinZuckerkaffee": true, "keinSnackMuell": true, "abendKontrolliert": true, "schlafVorbereiten": true }
+      "entries": [],
+      "checks": {}
     },
     {
       "date": "2026-04-29",
       "label": "Mi",
       "score": 9.5,
       "status": "closed",
-      "summary": "Sehr starker Tag mit bewusster Korrektur.",
+      "summary": "Sehr starker Tag.",
       "entries": [],
-      "checks": { "wasser": true, "protein": true, "bewegung": true, "kraftreiz": true, "keinZuckerkaffee": true, "keinSnackMuell": true, "abendKontrolliert": true, "schlafVorbereiten": true }
+      "checks": {}
     },
     {
       "date": "2026-04-30",
       "label": "Do",
       "score": 5,
       "status": "closed",
-      "summary": "Soziale Situation nach Fußball: Alkohol, Burger und Grillen. Kein Süßkram, aber klarer Abend-Ausbruch. Learning: Grenze nach Sport und sozialem Anlass fehlt noch.",
-      "entries": [
-        { "time": "Abend", "title": "Fußballspiel + sozialer Abend", "text": "2 saure Radler, 2 Bier, mehrere Gin Tonic. Danach gegrillt: Hamburger mit Käse und Brot, keine Süßigkeiten.", "rating": "Cheat / Ausbruch", "type": "bad" }
-      ],
-      "checks": { "wasser": true, "protein": true, "bewegung": true, "kraftreiz": false, "keinZuckerkaffee": true, "keinSnackMuell": false, "abendKontrolliert": false, "schlafVorbereiten": false }
+      "summary": "Alkohol + Burger am Abend. Klarer Ausbruch.",
+      "entries": [],
+      "checks": {}
     },
     {
       "date": "2026-05-01",
       "label": "Fr",
       "score": 8.5,
-      "status": "current",
-      "summary": "Comeback-Tag nach gestern. Sehr sauberer Start mit Wasser, Kaffee ohne Zucker und Skyr Bowl. Jetzt nicht kompensieren, sondern ruhig stabil bleiben.",
-      "entries": [
-        { "time": "Morgen", "title": "Reset-Start", "text": "2 Gläser Wasser und Kaffee mit Milchschaum ohne Zucker.", "rating": "stark", "type": "good" },
-        { "time": "Frühstück", "title": "Skyr Bowl", "text": "Skyr/Joghurt mit Erdbeeren und Banane. Sauberer Neustart nach dem Cheat-Abend.", "rating": "9/10", "type": "good" }
-      ],
-      "checks": { "wasser": true, "protein": true, "bewegung": false, "kraftreiz": false, "keinZuckerkaffee": true, "keinSnackMuell": true, "abendKontrolliert": false, "schlafVorbereiten": false }
+      "status": "closed",
+      "summary": "Sauberer Comeback-Tag nach Donnerstag.",
+      "entries": [],
+      "checks": {}
     },
-    { "date": "2026-05-02", "label": "Sa", "score": null, "status": "open", "summary": "Offen.", "entries": [], "checks": {} },
-    { "date": "2026-05-03", "label": "So", "score": null, "status": "open", "summary": "Offen.", "entries": [], "checks": {} }
+    {
+      "date": "2026-05-02",
+      "label": "Sa",
+      "score": 8.5,
+      "status": "current",
+      "summary": "Stabiler Start heute. Fokus: Konstanz halten, kein Rückfall.",
+      "entries": [
+        {
+          "time": "Morgen",
+          "title": "Start",
+          "text": "Wasser, Kaffee ohne Zucker, Skyr Bowl.",
+          "rating": "stark",
+          "type": "good"
+        }
+      ],
+      "checks": {
+        "wasser": true,
+        "protein": true,
+        "bewegung": false,
+        "kraftreiz": false,
+        "keinZuckerkaffee": true,
+        "keinSnackMuell": true,
+        "abendKontrolliert": false,
+        "schlafVorbereiten": false
+      }
+    },
+    {
+      "date": "2026-05-03",
+      "label": "So",
+      "score": null,
+      "status": "open",
+      "summary": "Offen.",
+      "entries": [],
+      "checks": {}
+    }
   ]
 }
