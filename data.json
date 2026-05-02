@@ -5,7 +5,7 @@
     "goal": "Rekomposition",
     "principles": ["Protein", "Kraftreiz", "Konstanz", "Keine Kalorienzählerei"]
   },
-  "currentDay": "2026-04-30",
+  "currentDay": "2026-05-01",
   "rules": [
     { "title": "Wenn Hunger kommt", "text": "Skyr + Beeren oder Shake. Kein Süßes." },
     { "title": "Abendessen", "text": "Leicht + Protein. Kein Belohnungs-Essen." },
@@ -13,20 +13,11 @@
   ],
   "days": [
     {
-      "date": "2026-04-27",
-      "label": "Mo",
-      "score": null,
-      "status": "open",
-      "summary": "Noch kein vollständiges Protokoll.",
-      "entries": [],
-      "checks": {}
-    },
-    {
       "date": "2026-04-28",
       "label": "Di",
       "score": 9,
       "status": "closed",
-      "summary": "Sehr sauberer Einstiegstag. Kein schweres Belohnungsessen, gute Bewegungsbasis, bewusstere Entscheidungen.",
+      "summary": "Sehr sauberer Einstiegstag.",
       "entries": [
         { "time": "Morgen", "title": "Routine", "text": "Wasser mit Prise Salz, 20 Kniebeugen, 15 Liegestütze. Kaffee ohne Zucker getestet.", "rating": "stark", "type": "good" }
       ],
@@ -44,26 +35,26 @@
     {
       "date": "2026-04-30",
       "label": "Do",
-      "score": 7,
-      "status": "current",
-      "summary": "Stabiler Start, aber Vormittag/Mittag nicht optimal (wenig Protein, verarbeitetes Fleisch). Abend entscheidet.",
+      "score": 5,
+      "status": "closed",
+      "summary": "Soziale Situation nach Fußball: Alkohol, Burger und Grillen. Kein Süßkram, aber klarer Abend-Ausbruch. Learning: Grenze nach Sport und sozialem Anlass fehlt noch.",
       "entries": [
-        { "time": "Morgen", "title": "Routine", "text": "Wasser, 35 Kniebeugen, 25 Liegestütze, Kaffee ohne Zucker.", "rating": "stark", "type": "good" },
-        { "time": "Vormittag", "title": "Banane", "text": "Schnelle Energie, aber ohne Protein → hält nicht lange satt.", "rating": "7/10", "type": "ok" },
-        { "time": "Mittag", "title": "Nudeln + Lyoner + Landjäger", "text": "Einfach & verfügbar, aber viel verarbeitetes Fleisch und wenig sauberes Protein.", "rating": "6/10", "type": "ok" }
+        { "time": "Abend", "title": "Fußballspiel + sozialer Abend", "text": "2 saure Radler, 2 Bier, mehrere Gin Tonic. Danach gegrillt: Hamburger mit Käse und Brot, keine Süßigkeiten.", "rating": "Cheat / Ausbruch", "type": "bad" }
       ],
-      "checks": {
-        "wasser": true,
-        "protein": false,
-        "bewegung": true,
-        "kraftreiz": true,
-        "keinZuckerkaffee": true,
-        "keinSnackMuell": true,
-        "abendKontrolliert": false,
-        "schlafVorbereiten": false
-      }
+      "checks": { "wasser": true, "protein": true, "bewegung": true, "kraftreiz": false, "keinZuckerkaffee": true, "keinSnackMuell": false, "abendKontrolliert": false, "schlafVorbereiten": false }
     },
-    { "date": "2026-05-01", "label": "Fr", "score": null, "status": "open", "summary": "Offen.", "entries": [], "checks": {} },
+    {
+      "date": "2026-05-01",
+      "label": "Fr",
+      "score": 8.5,
+      "status": "current",
+      "summary": "Comeback-Tag nach gestern. Sehr sauberer Start mit Wasser, Kaffee ohne Zucker und Skyr Bowl. Jetzt nicht kompensieren, sondern ruhig stabil bleiben.",
+      "entries": [
+        { "time": "Morgen", "title": "Reset-Start", "text": "2 Gläser Wasser und Kaffee mit Milchschaum ohne Zucker.", "rating": "stark", "type": "good" },
+        { "time": "Frühstück", "title": "Skyr Bowl", "text": "Skyr/Joghurt mit Erdbeeren und Banane. Sauberer Neustart nach dem Cheat-Abend.", "rating": "9/10", "type": "good" }
+      ],
+      "checks": { "wasser": true, "protein": true, "bewegung": false, "kraftreiz": false, "keinZuckerkaffee": true, "keinSnackMuell": true, "abendKontrolliert": false, "schlafVorbereiten": false }
+    },
     { "date": "2026-05-02", "label": "Sa", "score": null, "status": "open", "summary": "Offen.", "entries": [], "checks": {} },
     { "date": "2026-05-03", "label": "So", "score": null, "status": "open", "summary": "Offen.", "entries": [], "checks": {} }
   ]
