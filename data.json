@@ -26,40 +26,64 @@
       "label": "Mi",
       "score": 9.5,
       "status": "closed",
-      "summary": "Sehr starker Tag.",
+      "summary": "Sehr starker Tag mit bewusster Korrektur.",
       "entries": [],
       "checks": {}
     },
     {
       "date": "2026-04-30",
       "label": "Do",
-      "score": 5,
+      "score": 7,
       "status": "closed",
-      "summary": "Alkohol + Burger am Abend. Klarer Ausbruch.",
+      "summary": "Durchwachsener Tag. Kein kompletter Absturz, aber Abend-/Snack-Muster war bereits sichtbar.",
       "entries": [],
       "checks": {}
     },
     {
       "date": "2026-05-01",
       "label": "Fr",
-      "score": 8.5,
+      "score": 5,
       "status": "closed",
-      "summary": "Sauberer Comeback-Tag nach Donnerstag.",
-      "entries": [],
-      "checks": {}
+      "summary": "Ausbruch nach sozialem Fußball-Kontext: Alkohol, Burger, Brot und Grillen. Kein Süßkram, aber klarer Kontrollverlust am Abend. Learning: soziale Situation + Alkohol ist aktuell der stärkste Trigger.",
+      "entries": [
+        {
+          "time": "Abend",
+          "title": "Fußball + Grillabend",
+          "text": "Nach dem U13-Fußballspiel: 2 saure Radler, zu Hause 2 Bier, mehrere Gin Tonic. Danach gegrillt: Hamburger mit Käse und Brot. Keine Süßigkeiten.",
+          "rating": "Ausbruch",
+          "type": "bad"
+        }
+      ],
+      "checks": {
+        "wasser": true,
+        "protein": true,
+        "bewegung": true,
+        "kraftreiz": false,
+        "keinZuckerkaffee": true,
+        "keinSnackMuell": false,
+        "abendKontrolliert": false,
+        "schlafVorbereiten": false
+      }
     },
     {
       "date": "2026-05-02",
       "label": "Sa",
       "score": 8.5,
       "status": "current",
-      "summary": "Stabiler Start heute. Fokus: Konstanz halten, kein Rückfall.",
+      "summary": "Samstag = Reset nach gestrigem Ausbruch. Sehr sauberer Start mit Wasser, Kaffee ohne Zucker und Skyr Bowl. Heute nicht kompensieren, sondern ruhig stabilisieren.",
       "entries": [
         {
           "time": "Morgen",
-          "title": "Start",
-          "text": "Wasser, Kaffee ohne Zucker, Skyr Bowl.",
+          "title": "Reset-Start",
+          "text": "2 Gläser Wasser und Kaffee mit Milchschaum ohne Zucker.",
           "rating": "stark",
+          "type": "good"
+        },
+        {
+          "time": "Frühstück",
+          "title": "Skyr Bowl",
+          "text": "Skyr/Joghurt mit Erdbeeren und Banane. Sauberer Neustart nach dem Ausbruch gestern.",
+          "rating": "9/10",
           "type": "good"
         }
       ],
