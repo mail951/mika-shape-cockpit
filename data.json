@@ -5,31 +5,13 @@
     "goal": "Rekomposition",
     "principles": ["Protein", "Kraftreiz", "Konstanz", "Keine Kalorienzählerei"]
   },
-  "currentDay": "2026-05-02",
+  "currentDay": "2026-05-04",
   "rules": [
     { "title": "Wenn Hunger kommt", "text": "Skyr + Beeren oder Shake. Kein Süßes." },
     { "title": "Abendessen", "text": "Leicht + Protein. Kein Belohnungs-Essen." },
     { "title": "Getränke", "text": "Wasser, Kaffee ohne Zucker, maximal bewusstes Sirupglas." }
   ],
   "days": [
-    {
-      "date": "2026-04-28",
-      "label": "Di",
-      "score": 9,
-      "status": "closed",
-      "summary": "Sehr sauberer Einstiegstag.",
-      "entries": [],
-      "checks": {}
-    },
-    {
-      "date": "2026-04-29",
-      "label": "Mi",
-      "score": 9.5,
-      "status": "closed",
-      "summary": "Sehr starker Tag mit bewusster Korrektur.",
-      "entries": [],
-      "checks": {}
-    },
     {
       "date": "2026-04-30",
       "label": "Do",
@@ -46,66 +28,47 @@
       "status": "closed",
       "summary": "Ausbruch nach sozialem Fußball-Kontext: Alkohol, Burger, Brot und Grillen. Kein Süßkram, aber klarer Kontrollverlust am Abend. Learning: soziale Situation + Alkohol ist aktuell der stärkste Trigger.",
       "entries": [
-        {
-          "time": "Abend",
-          "title": "Fußball + Grillabend",
-          "text": "Nach dem U13-Fußballspiel: 2 saure Radler, zu Hause 2 Bier, mehrere Gin Tonic. Danach gegrillt: Hamburger mit Käse und Brot. Keine Süßigkeiten.",
-          "rating": "Ausbruch",
-          "type": "bad"
-        }
+        { "time": "Abend", "title": "Fußball + Grillabend", "text": "Nach dem U13-Fußballspiel: 2 saure Radler, zu Hause 2 Bier, mehrere Gin Tonic. Danach gegrillt: Hamburger mit Käse und Brot. Keine Süßigkeiten.", "rating": "Ausbruch", "type": "bad" }
       ],
-      "checks": {
-        "wasser": true,
-        "protein": true,
-        "bewegung": true,
-        "kraftreiz": false,
-        "keinZuckerkaffee": true,
-        "keinSnackMuell": false,
-        "abendKontrolliert": false,
-        "schlafVorbereiten": false
-      }
+      "checks": { "wasser": true, "protein": true, "bewegung": true, "kraftreiz": false, "keinZuckerkaffee": true, "keinSnackMuell": false, "abendKontrolliert": false, "schlafVorbereiten": false }
     },
     {
       "date": "2026-05-02",
       "label": "Sa",
-      "score": 8.5,
-      "status": "current",
-      "summary": "Samstag = Reset nach gestrigem Ausbruch. Sehr sauberer Start mit Wasser, Kaffee ohne Zucker und Skyr Bowl. Heute nicht kompensieren, sondern ruhig stabilisieren.",
+      "score": 6,
+      "status": "closed",
+      "summary": "Samstag war kein Reset, sondern ein durchwachsener Männerabend: Wasser und Skyr waren gut, aber Chips, Gummibärchen, Eis und Brot haben den Abend geöffnet.",
       "entries": [
-        {
-          "time": "Morgen",
-          "title": "Reset-Start",
-          "text": "2 Gläser Wasser und Kaffee mit Milchschaum ohne Zucker.",
-          "rating": "stark",
-          "type": "good"
-        },
-        {
-          "time": "Frühstück",
-          "title": "Skyr Bowl",
-          "text": "Skyr/Joghurt mit Erdbeeren und Banane. Sauberer Neustart nach dem Ausbruch gestern.",
-          "rating": "9/10",
-          "type": "good"
-        }
+        { "time": "Tag", "title": "Wasser + Skyr Bowl", "text": "Generell viel Wasser. Skyr Bowl mehr oder weniger zu Mittag.", "rating": "gut", "type": "good" },
+        { "time": "Abend", "title": "Männerabend", "text": "Schwarzbrot mit Schinken, später Aglio e Olio mit Salat und etwas Brot, kleiner Eisbecher Beerenzauber, ein paar Chips und Gummibärchen.", "rating": "schwach", "type": "bad" }
       ],
-      "checks": {
-        "wasser": true,
-        "protein": true,
-        "bewegung": false,
-        "kraftreiz": false,
-        "keinZuckerkaffee": true,
-        "keinSnackMuell": true,
-        "abendKontrolliert": false,
-        "schlafVorbereiten": false
-      }
+      "checks": { "wasser": true, "protein": true, "bewegung": false, "kraftreiz": false, "keinZuckerkaffee": true, "keinSnackMuell": false, "abendKontrolliert": false, "schlafVorbereiten": false }
     },
     {
       "date": "2026-05-03",
       "label": "So",
-      "score": null,
-      "status": "open",
-      "summary": "Offen.",
-      "entries": [],
-      "checks": {}
+      "score": 7.8,
+      "status": "closed",
+      "summary": "Sonntag war stabiler als Samstag: gute Wasser-/Kaffee-Basis, Skyr zweimal, ordentliche Mahlzeit in Bregenz. Dämpfer: Mango-Saft und Eis am Abend.",
+      "entries": [
+        { "time": "Morgen", "title": "Wasser + schwarzer Kaffee", "text": "Wasser und schwarzer Kaffee zum Frühstück.", "rating": "stark", "type": "good" },
+        { "time": "Vormittag", "title": "Skyr Bowl", "text": "Skyr Bowl mit Erdbeeren.", "rating": "gut", "type": "good" },
+        { "time": "Mittag", "title": "Manga Bregenz", "text": "Chili Huhn mit Reis und Makis. Mango-Saft gespritzt mit Mineral.", "rating": "ok", "type": "ok" },
+        { "time": "Abend", "title": "Skyr + Eis", "text": "Skyr mit Erdbeeren und Banane. Dazu Tüte Eis Erdbeere/Vanille.", "rating": "ok", "type": "ok" }
+      ],
+      "checks": { "wasser": true, "protein": true, "bewegung": false, "kraftreiz": false, "keinZuckerkaffee": true, "keinSnackMuell": false, "abendKontrolliert": false, "schlafVorbereiten": false }
+    },
+    {
+      "date": "2026-05-04",
+      "label": "Mo",
+      "score": 8.5,
+      "status": "current",
+      "summary": "Montag ist der aktuelle Tag. Guter Start mit Wasser und Kaffee ohne Zucker. Mittag geplant: Vollkornbrot mit Schinken plus Salat mit Thunfisch oder Hühnerfleisch. Fokus: Abend sauber halten.",
+      "entries": [
+        { "time": "Morgen", "title": "Start", "text": "Kaffee mit Milchschaum ohne Zucker, viel Wasser, zusätzlich schwarzer Kaffee.", "rating": "stark", "type": "good" },
+        { "time": "Mittag geplant", "title": "Vollkornbrot + Salat", "text": "Vollkornbrot mit Schinken sowie Salat mit Thunfisch oder Hühnerfleisch geplant.", "rating": "gut geplant", "type": "good" }
+      ],
+      "checks": { "wasser": true, "protein": false, "bewegung": false, "kraftreiz": false, "keinZuckerkaffee": true, "keinSnackMuell": true, "abendKontrolliert": false, "schlafVorbereiten": false }
     }
   ]
 }
