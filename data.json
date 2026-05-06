@@ -5,7 +5,7 @@
     "goal": "Rekomposition",
     "principles": ["Protein", "Kraftreiz", "Konstanz", "Keine Kalorienzählerei"]
   },
-  "currentDay": "2026-05-04",
+  "currentDay": "2026-05-06",
   "rules": [
     { "title": "Wenn Hunger kommt", "text": "Skyr + Beeren oder Shake. Kein Süßes." },
     { "title": "Abendessen", "text": "Leicht + Protein. Kein Belohnungs-Essen." },
@@ -26,9 +26,9 @@
       "label": "Fr",
       "score": 5,
       "status": "closed",
-      "summary": "Ausbruch nach sozialem Fußball-Kontext: Alkohol, Burger, Brot und Grillen. Kein Süßkram, aber klarer Kontrollverlust am Abend. Learning: soziale Situation + Alkohol ist aktuell der stärkste Trigger.",
+      "summary": "Ausbruch nach sozialem Fußball-Kontext: Alkohol, Burger, Brot und Grillen. Kein Süßkram, aber klarer Kontrollverlust am Abend.",
       "entries": [
-        { "time": "Abend", "title": "Fußball + Grillabend", "text": "Nach dem U13-Fußballspiel: 2 saure Radler, zu Hause 2 Bier, mehrere Gin Tonic. Danach gegrillt: Hamburger mit Käse und Brot. Keine Süßigkeiten.", "rating": "Ausbruch", "type": "bad" }
+        { "time": "Abend", "title": "Fußball + Grillabend", "text": "2 saure Radler, später Bier, Gin Tonic und Burger mit Brot.", "rating": "Ausbruch", "type": "bad" }
       ],
       "checks": { "wasser": true, "protein": true, "bewegung": true, "kraftreiz": false, "keinZuckerkaffee": true, "keinSnackMuell": false, "abendKontrolliert": false, "schlafVorbereiten": false }
     },
@@ -37,10 +37,10 @@
       "label": "Sa",
       "score": 6,
       "status": "closed",
-      "summary": "Samstag war kein Reset, sondern ein durchwachsener Männerabend: Wasser und Skyr waren gut, aber Chips, Gummibärchen, Eis und Brot haben den Abend geöffnet.",
+      "summary": "Durchwachsener Männerabend. Wasser und Skyr gut, aber Brot, Eis, Chips und Gummibärchen haben den Abend geöffnet.",
       "entries": [
-        { "time": "Tag", "title": "Wasser + Skyr Bowl", "text": "Generell viel Wasser. Skyr Bowl mehr oder weniger zu Mittag.", "rating": "gut", "type": "good" },
-        { "time": "Abend", "title": "Männerabend", "text": "Schwarzbrot mit Schinken, später Aglio e Olio mit Salat und etwas Brot, kleiner Eisbecher Beerenzauber, ein paar Chips und Gummibärchen.", "rating": "schwach", "type": "bad" }
+        { "time": "Tag", "title": "Skyr + Wasser", "text": "Viel Wasser und Skyr Bowl als Basis.", "rating": "gut", "type": "good" },
+        { "time": "Abend", "title": "Männerabend", "text": "Schwarzbrot, Pasta, kleiner Eisbecher sowie Chips und Gummibärchen.", "rating": "offen", "type": "bad" }
       ],
       "checks": { "wasser": true, "protein": true, "bewegung": false, "kraftreiz": false, "keinZuckerkaffee": true, "keinSnackMuell": false, "abendKontrolliert": false, "schlafVorbereiten": false }
     },
@@ -49,26 +49,50 @@
       "label": "So",
       "score": 7.8,
       "status": "closed",
-      "summary": "Sonntag war stabiler als Samstag: gute Wasser-/Kaffee-Basis, Skyr zweimal, ordentliche Mahlzeit in Bregenz. Dämpfer: Mango-Saft und Eis am Abend.",
+      "summary": "Stabilerer Sonntag mit guter Basis. Zwei saubere Skyr-Mahlzeiten, aber Eis am Abend bleibt Thema.",
       "entries": [
-        { "time": "Morgen", "title": "Wasser + schwarzer Kaffee", "text": "Wasser und schwarzer Kaffee zum Frühstück.", "rating": "stark", "type": "good" },
-        { "time": "Vormittag", "title": "Skyr Bowl", "text": "Skyr Bowl mit Erdbeeren.", "rating": "gut", "type": "good" },
-        { "time": "Mittag", "title": "Manga Bregenz", "text": "Chili Huhn mit Reis und Makis. Mango-Saft gespritzt mit Mineral.", "rating": "ok", "type": "ok" },
-        { "time": "Abend", "title": "Skyr + Eis", "text": "Skyr mit Erdbeeren und Banane. Dazu Tüte Eis Erdbeere/Vanille.", "rating": "ok", "type": "ok" }
+        { "time": "Morgen", "title": "Wasser + Kaffee", "text": "Schwarzer Kaffee und Wasser.", "rating": "stark", "type": "good" },
+        { "time": "Mittag", "title": "Manga Bregenz", "text": "Chili Huhn mit Reis und Makis.", "rating": "ok", "type": "ok" },
+        { "time": "Abend", "title": "Skyr + Eis", "text": "Skyr mit Früchten plus Eis.", "rating": "leicht offen", "type": "ok" }
       ],
       "checks": { "wasser": true, "protein": true, "bewegung": false, "kraftreiz": false, "keinZuckerkaffee": true, "keinSnackMuell": false, "abendKontrolliert": false, "schlafVorbereiten": false }
     },
     {
       "date": "2026-05-04",
       "label": "Mo",
+      "score": 9,
+      "status": "closed",
+      "summary": "Sehr sauberer Tag. Kein Kontrollverlust, viel Wasser und bewusster Abendabschluss.",
+      "entries": [
+        { "time": "Morgen", "title": "Kaffee + Wasser", "text": "Kaffee mit Milchschaum ohne Zucker, viel Wasser.", "rating": "stark", "type": "good" },
+        { "time": "Mittag", "title": "Vollkorn + Salat", "text": "Vollkornbrot mit Schinken sowie Salat mit Protein.", "rating": "gut", "type": "good" },
+        { "time": "Abend", "title": "Leichter Abschluss", "text": "Erdbeeren, Wasser und bewusst ein Glas Holunder-Mineral.", "rating": "kontrolliert", "type": "good" }
+      ],
+      "checks": { "wasser": true, "protein": true, "bewegung": false, "kraftreiz": false, "keinZuckerkaffee": true, "keinSnackMuell": true, "abendKontrolliert": true, "schlafVorbereiten": true }
+    },
+    {
+      "date": "2026-05-05",
+      "label": "Di",
+      "score": 7,
+      "status": "closed",
+      "summary": "Solider Tag mit schwachem Abschluss. Kein Absturz, aber abendlicher Nachschlag trotz gutem Abendessen.",
+      "entries": [
+        { "time": "Tag", "title": "Wenig Struktur", "text": "Kaffee und Brot ohne klares Protein-Fundament.", "rating": "instabil", "type": "ok" },
+        { "time": "Abend", "title": "Salat + Nachschlag", "text": "Salat mit Hühnerfleisch und Paprika. Später Kernbrot mit Pfeffersalami, Mayo und Jalapeños.", "rating": "offen", "type": "bad" }
+      ],
+      "checks": { "wasser": true, "protein": true, "bewegung": false, "kraftreiz": false, "keinZuckerkaffee": true, "keinSnackMuell": false, "abendKontrolliert": false, "schlafVorbereiten": false }
+    },
+    {
+      "date": "2026-05-06",
+      "label": "Mi",
       "score": 8.5,
       "status": "current",
-      "summary": "Montag ist der aktuelle Tag. Guter Start mit Wasser und Kaffee ohne Zucker. Mittag geplant: Vollkornbrot mit Schinken plus Salat mit Thunfisch oder Hühnerfleisch. Fokus: Abend sauber halten.",
+      "summary": "Sehr solider Mittwoch-Start. Gute Bowl, klare Struktur und bisher kein Kontrollverlust.",
       "entries": [
-        { "time": "Morgen", "title": "Start", "text": "Kaffee mit Milchschaum ohne Zucker, viel Wasser, zusätzlich schwarzer Kaffee.", "rating": "stark", "type": "good" },
-        { "time": "Mittag geplant", "title": "Vollkornbrot + Salat", "text": "Vollkornbrot mit Schinken sowie Salat mit Thunfisch oder Hühnerfleisch geplant.", "rating": "gut geplant", "type": "good" }
+        { "time": "Morgen", "title": "Kaffee", "text": "Schwarzer Kaffee sowie Kaffee mit Milch ohne Zucker.", "rating": "sauber", "type": "good" },
+        { "time": "Mittag", "title": "Hühner Bowl", "text": "Reis, Salat, Avocado, Tomaten und Huhn als stabile Mahlzeit.", "rating": "stark", "type": "good" }
       ],
-      "checks": { "wasser": true, "protein": false, "bewegung": false, "kraftreiz": false, "keinZuckerkaffee": true, "keinSnackMuell": true, "abendKontrolliert": false, "schlafVorbereiten": false }
+      "checks": { "wasser": true, "protein": true, "bewegung": false, "kraftreiz": false, "keinZuckerkaffee": true, "keinSnackMuell": true, "abendKontrolliert": false, "schlafVorbereiten": false }
     }
   ]
 }
