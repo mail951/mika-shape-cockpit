@@ -5,7 +5,7 @@
     "goal": "Rekomposition",
     "principles": ["Protein", "Kraftreiz", "Konstanz", "Keine Kalorienzählerei"]
   },
-  "currentDay": "2026-05-06",
+  "currentDay": "2026-05-08",
   "rules": [
     { "title": "Wenn Hunger kommt", "text": "Skyr + Beeren oder Shake. Kein Süßes." },
     { "title": "Abendessen", "text": "Leicht + Protein. Kein Belohnungs-Essen." },
@@ -85,14 +85,26 @@
     {
       "date": "2026-05-06",
       "label": "Mi",
-      "score": 8.5,
-      "status": "current",
-      "summary": "Sehr solider Mittwoch-Start. Gute Bowl, klare Struktur und bisher kein Kontrollverlust.",
+      "score": 8,
+      "status": "closed",
+      "summary": "Sehr stabiler Tag mit kontrolliertem Abend. Kein Snack- oder Süßigkeitenmuster mehr sichtbar.",
       "entries": [
         { "time": "Morgen", "title": "Kaffee", "text": "Schwarzer Kaffee sowie Kaffee mit Milch ohne Zucker.", "rating": "sauber", "type": "good" },
-        { "time": "Mittag", "title": "Hühner Bowl", "text": "Reis, Salat, Avocado, Tomaten und Huhn als stabile Mahlzeit.", "rating": "stark", "type": "good" }
+        { "time": "Mittag", "title": "Hühner Bowl", "text": "Reis, Salat, Avocado, Tomaten und Huhn als stabile Mahlzeit.", "rating": "stark", "type": "good" },
+        { "time": "Abend", "title": "Reis + Wurstnudeln", "text": "Etwas Reis mit Hühnerfleisch sowie ein Teller Wurstnudeln. Kein Brot, keine Nachspeise.", "rating": "kontrolliert", "type": "ok" }
       ],
-      "checks": { "wasser": true, "protein": true, "bewegung": false, "kraftreiz": false, "keinZuckerkaffee": true, "keinSnackMuell": true, "abendKontrolliert": false, "schlafVorbereiten": false }
+      "checks": { "wasser": true, "protein": true, "bewegung": false, "kraftreiz": false, "keinZuckerkaffee": true, "keinSnackMuell": true, "abendKontrolliert": true, "schlafVorbereiten": false }
+    },
+    {
+      "date": "2026-05-08",
+      "label": "Fr",
+      "score": 7,
+      "status": "current",
+      "summary": "Funktionaler Start ohne Chaos, aber erneut wenig Protein am Morgen. Fokus: Mittag strukturiert halten.",
+      "entries": [
+        { "time": "Morgen", "title": "Kaffee + Wasser", "text": "2x schwarzer Kaffee, Wasser und ein Kornspitz.", "rating": "ok", "type": "ok" }
+      ],
+      "checks": { "wasser": true, "protein": false, "bewegung": false, "kraftreiz": false, "keinZuckerkaffee": true, "keinSnackMuell": true, "abendKontrolliert": false, "schlafVorbereiten": false }
     }
   ]
 }
