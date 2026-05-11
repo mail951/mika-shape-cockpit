@@ -5,7 +5,7 @@
     "goal": "Rekomposition",
     "principles": ["Protein", "Kraftreiz", "Konstanz", "Keine Kalorienzählerei"]
   },
-  "currentDay": "2026-05-08",
+  "currentDay": "2026-05-11",
   "rules": [
     { "title": "Wenn Hunger kommt", "text": "Skyr + Beeren oder Shake. Kein Süßes." },
     { "title": "Abendessen", "text": "Leicht + Protein. Kein Belohnungs-Essen." },
@@ -13,98 +13,41 @@
   ],
   "days": [
     {
-      "date": "2026-04-30",
-      "label": "Do",
-      "score": 7,
+      "date": "2026-05-09",
+      "label": "Sa",
+      "score": 5.8,
       "status": "closed",
-      "summary": "Durchwachsener Tag. Kein kompletter Absturz, aber Abend-/Snack-Muster war bereits sichtbar.",
-      "entries": [],
-      "checks": {}
+      "summary": "Sozialer Fußballtag mit Alkohol und Fast-Food-Muster. Kein kompletter Absturz, aber klarer Drift.",
+      "entries": [
+        { "time": "Vormittag", "title": "Joghurt + Banane", "text": "Griechisches Joghurt mit Banane als guter Start.", "rating": "gut", "type": "good" },
+        { "time": "Nach Fußball", "title": "Nuggets + Pommes", "text": "Chicken Nuggets mit Pommes nach dem Fußball.", "rating": "schwach", "type": "bad" },
+        { "time": "Abend", "title": "Radler + Brot", "text": "Mehrere saure Radler und später Brot mit Wurst.", "rating": "offen", "type": "bad" }
+      ],
+      "checks": { "wasser": true, "protein": false, "bewegung": true, "kraftreiz": false, "keinZuckerkaffee": true, "keinSnackMuell": false, "abendKontrolliert": false, "schlafVorbereiten": false }
     },
     {
-      "date": "2026-05-01",
-      "label": "Fr",
+      "date": "2026-05-10",
+      "label": "So",
       "score": 5,
       "status": "closed",
-      "summary": "Ausbruch nach sozialem Fußball-Kontext: Alkohol, Burger, Brot und Grillen. Kein Süßkram, aber klarer Kontrollverlust am Abend.",
+      "summary": "Schwächster Tag seit längerem. Zu viele mittelmäßige Entscheidungen über den ganzen Tag verteilt.",
       "entries": [
-        { "time": "Abend", "title": "Fußball + Grillabend", "text": "2 saure Radler, später Bier, Gin Tonic und Burger mit Brot.", "rating": "Ausbruch", "type": "bad" }
+        { "time": "Mittag", "title": "Pasta", "text": "Penne Aglio Olio in der Pizzeria.", "rating": "mittel", "type": "ok" },
+        { "time": "Nachmittag", "title": "Muttertag", "text": "Erdbeerkuchen am Nachmittag.", "rating": "offen", "type": "bad" },
+        { "time": "Abend", "title": "Reste + Brot", "text": "Etwas Pizza, Pasta-Reste sowie Sonnenblumenbrot mit Wurst und Jalapeños.", "rating": "schwach", "type": "bad" }
       ],
-      "checks": { "wasser": true, "protein": true, "bewegung": true, "kraftreiz": false, "keinZuckerkaffee": true, "keinSnackMuell": false, "abendKontrolliert": false, "schlafVorbereiten": false }
+      "checks": { "wasser": true, "protein": false, "bewegung": false, "kraftreiz": false, "keinZuckerkaffee": true, "keinSnackMuell": false, "abendKontrolliert": false, "schlafVorbereiten": false }
     },
     {
-      "date": "2026-05-02",
-      "label": "Sa",
-      "score": 6,
-      "status": "closed",
-      "summary": "Durchwachsener Männerabend. Wasser und Skyr gut, aber Brot, Eis, Chips und Gummibärchen haben den Abend geöffnet.",
-      "entries": [
-        { "time": "Tag", "title": "Skyr + Wasser", "text": "Viel Wasser und Skyr Bowl als Basis.", "rating": "gut", "type": "good" },
-        { "time": "Abend", "title": "Männerabend", "text": "Schwarzbrot, Pasta, kleiner Eisbecher sowie Chips und Gummibärchen.", "rating": "offen", "type": "bad" }
-      ],
-      "checks": { "wasser": true, "protein": true, "bewegung": false, "kraftreiz": false, "keinZuckerkaffee": true, "keinSnackMuell": false, "abendKontrolliert": false, "schlafVorbereiten": false }
-    },
-    {
-      "date": "2026-05-03",
-      "label": "So",
-      "score": 7.8,
-      "status": "closed",
-      "summary": "Stabilerer Sonntag mit guter Basis. Zwei saubere Skyr-Mahlzeiten, aber Eis am Abend bleibt Thema.",
-      "entries": [
-        { "time": "Morgen", "title": "Wasser + Kaffee", "text": "Schwarzer Kaffee und Wasser.", "rating": "stark", "type": "good" },
-        { "time": "Mittag", "title": "Manga Bregenz", "text": "Chili Huhn mit Reis und Makis.", "rating": "ok", "type": "ok" },
-        { "time": "Abend", "title": "Skyr + Eis", "text": "Skyr mit Früchten plus Eis.", "rating": "leicht offen", "type": "ok" }
-      ],
-      "checks": { "wasser": true, "protein": true, "bewegung": false, "kraftreiz": false, "keinZuckerkaffee": true, "keinSnackMuell": false, "abendKontrolliert": false, "schlafVorbereiten": false }
-    },
-    {
-      "date": "2026-05-04",
+      "date": "2026-05-11",
       "label": "Mo",
-      "score": 9,
-      "status": "closed",
-      "summary": "Sehr sauberer Tag. Kein Kontrollverlust, viel Wasser und bewusster Abendabschluss.",
-      "entries": [
-        { "time": "Morgen", "title": "Kaffee + Wasser", "text": "Kaffee mit Milchschaum ohne Zucker, viel Wasser.", "rating": "stark", "type": "good" },
-        { "time": "Mittag", "title": "Vollkorn + Salat", "text": "Vollkornbrot mit Schinken sowie Salat mit Protein.", "rating": "gut", "type": "good" },
-        { "time": "Abend", "title": "Leichter Abschluss", "text": "Erdbeeren, Wasser und bewusst ein Glas Holunder-Mineral.", "rating": "kontrolliert", "type": "good" }
-      ],
-      "checks": { "wasser": true, "protein": true, "bewegung": false, "kraftreiz": false, "keinZuckerkaffee": true, "keinSnackMuell": true, "abendKontrolliert": true, "schlafVorbereiten": true }
-    },
-    {
-      "date": "2026-05-05",
-      "label": "Di",
-      "score": 7,
-      "status": "closed",
-      "summary": "Solider Tag mit schwachem Abschluss. Kein Absturz, aber abendlicher Nachschlag trotz gutem Abendessen.",
-      "entries": [
-        { "time": "Tag", "title": "Wenig Struktur", "text": "Kaffee und Brot ohne klares Protein-Fundament.", "rating": "instabil", "type": "ok" },
-        { "time": "Abend", "title": "Salat + Nachschlag", "text": "Salat mit Hühnerfleisch und Paprika. Später Kernbrot mit Pfeffersalami, Mayo und Jalapeños.", "rating": "offen", "type": "bad" }
-      ],
-      "checks": { "wasser": true, "protein": true, "bewegung": false, "kraftreiz": false, "keinZuckerkaffee": true, "keinSnackMuell": false, "abendKontrolliert": false, "schlafVorbereiten": false }
-    },
-    {
-      "date": "2026-05-06",
-      "label": "Mi",
       "score": 8,
-      "status": "closed",
-      "summary": "Sehr stabiler Tag mit kontrolliertem Abend. Kein Snack- oder Süßigkeitenmuster mehr sichtbar.",
-      "entries": [
-        { "time": "Morgen", "title": "Kaffee", "text": "Schwarzer Kaffee sowie Kaffee mit Milch ohne Zucker.", "rating": "sauber", "type": "good" },
-        { "time": "Mittag", "title": "Hühner Bowl", "text": "Reis, Salat, Avocado, Tomaten und Huhn als stabile Mahlzeit.", "rating": "stark", "type": "good" },
-        { "time": "Abend", "title": "Reis + Wurstnudeln", "text": "Etwas Reis mit Hühnerfleisch sowie ein Teller Wurstnudeln. Kein Brot, keine Nachspeise.", "rating": "kontrolliert", "type": "ok" }
-      ],
-      "checks": { "wasser": true, "protein": true, "bewegung": false, "kraftreiz": false, "keinZuckerkaffee": true, "keinSnackMuell": true, "abendKontrolliert": true, "schlafVorbereiten": false }
-    },
-    {
-      "date": "2026-05-08",
-      "label": "Fr",
-      "score": 7,
       "status": "current",
-      "summary": "Funktionaler Start ohne Chaos, aber erneut wenig Protein am Morgen. Fokus: Mittag strukturiert halten.",
+      "summary": "Sehr gute Reaktion nach dem Wochenende. Sofort wieder Struktur statt Chaos.",
       "entries": [
-        { "time": "Morgen", "title": "Kaffee + Wasser", "text": "2x schwarzer Kaffee, Wasser und ein Kornspitz.", "rating": "ok", "type": "ok" }
+        { "time": "Morgen", "title": "Reset-Start", "text": "30 Kniebeugen, griechisches Joghurt mit Erdbeeren und Bananen sowie Wasser.", "rating": "stark", "type": "good" }
       ],
-      "checks": { "wasser": true, "protein": false, "bewegung": false, "kraftreiz": false, "keinZuckerkaffee": true, "keinSnackMuell": true, "abendKontrolliert": false, "schlafVorbereiten": false }
+      "checks": { "wasser": true, "protein": true, "bewegung": true, "kraftreiz": false, "keinZuckerkaffee": true, "keinSnackMuell": true, "abendKontrolliert": false, "schlafVorbereiten": false }
     }
   ]
 }
